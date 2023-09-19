@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="CSS/style.css" typee="text/css" />
+</head>
+</html>
+
+<!--Navigation bar code-->
+<div class="topnav">
+    <a href="index.html">Home</a>
+    <a class= "active" href="contact.html">Contact</a>
+    <a href="about.html">About</a>
+</div>
+
+<!--contact section-->
+<div class="container">
+    <div style="text-align:center;">
+        <h2>Contact Me</h2>
+        <p>Send me a message</p>
+    </div>
+    <div class="row">
+        <div class="column2">
+            <img src="image/map.jpg" style="width: 100%;" width="100" height="800" />
+        </div>
+        <div class="column2">
+            <form action="contact.html">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your Name...">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name...">
+                <label for="occupation">Occupation</label>
+                <select id="occupation" name="occupation">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="subject">Subject</label>
+                <textarea name="subject" id="subject" placeholder="Write something..."
+                    style="height: 170px;"></textarea>
+                <input type="submit" value="Submit" onclick="alert('Thanks for the message')"/>
+            </form>
+            <h3>Contact me directly via:</h3>
+            <ul>
+                <li>Email: tye47@uwo.ca</li>
+                <li>Phone: generic phone number here</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- footer code-->
+<div class="footer">
+    <p>Tommy's Portfolio: tye47@uwo.ca</p>
+</div>
